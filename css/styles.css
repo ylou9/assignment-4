@@ -1,0 +1,100 @@
+html {
+    color: #bcbcbc;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+ /*    background-image: url("../Images/nazareth_college_winter.jpg");*/
+    
+ /*    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(255,0,0,0.5));*/
+    
+ /*   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(248,248,248,0.5));*/
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(248,248,248,0.5)),url("../Images/nazareth_college_winter.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    min-height:100vh;
+    flex-direction: column;
+}
+
+h2 {
+            color:yellow;
+            font-family:fantasy;
+            font-weight:900
+        }
+
+body {
+    background-color: beige;
+}
+
+main {
+    background-color:darkorchid;
+}
+h1 {
+    margin: 15px 5px 15px 5px;
+    
+    width:430px;
+    height: 80px;
+    margin-left: auto;
+    margin-right:auto
+}
+.fact, .mathstudy{
+    color:lightblue;
+    font-size:15pt;
+    border: 5px dotted pink;
+    border-radius: 15px;
+}
+footer a {
+    color:red; 
+}
+a {color: orange;
+}
+a:hover {
+    color: #aaa;
+}
+h4, p{
+    color:darkorange;
+    font-style:oblique;
+}
+
+footer{
+    margin: 600px 5px 5px 0px;}
+
+#address {
+    color:white;
+    font-size:15pt;
+    
+    border: 5px dotted pink;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+    
+    margin: 15px 5px 15px 5px;
+    
+    width:350px;
+    height: 30px;
+    margin-left: auto;
+    margin-right:auto
+    
+}
+header {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+li {
+    display:flex;
+    flex-direction:row;
+    margin: 5em;
+    justify-content: center
+}
+
+@media screen and (max-width: 50rem) {
+    harder,
+    main,
+    footer{
+        flex-direction:column;
+    }
+}
